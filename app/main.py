@@ -2,6 +2,8 @@ from fastapi import FastAPI
 
 from .config import settings
 
+import os
+
 app = FastAPI(
     title=settings.APP_NAME,
     debug=settings.DEBUG
