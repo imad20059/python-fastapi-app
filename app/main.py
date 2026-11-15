@@ -7,7 +7,7 @@ app = FastAPI(
     debug=settings.DEBUG
 )
 
-
+#test comment
 @app.get("/")
 def root():
     return {"message": "the server is now active"}
